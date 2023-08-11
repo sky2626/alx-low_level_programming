@@ -10,15 +10,15 @@
 
 int main(void)
 {
-	int sky = 0;
+	int i = 0;
 
-	while (sky < 48)
+	while (i < 48)
 	{
-		if (sky < 10)
+		if (i < 10)
 			putchar(i + '0');
-		else if (sky > 41)
+		else if (i > 41)
 			putchar(i - 10 + 'A');
-		sky++;
+		i++;
 	}
 	putchar(10);
 
